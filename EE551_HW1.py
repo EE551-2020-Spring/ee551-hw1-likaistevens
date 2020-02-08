@@ -20,13 +20,13 @@ def numbers_and_strings():
     y = y * 5
 
     # What is the length of z?
-    len(z)
+    length = len(z)
 
     # Concatenate variable y with string " is good"
-    y + " is good"
+    m = y + " is good"
 
     # Replace "good" with "awesome" in variable m and assign it to a new variable n
-    n = replace(awesome,good)
+    n = m.replace('good','awesome')
 
     return x, y, z, length, m, n
 
